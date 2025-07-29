@@ -625,10 +625,11 @@ p {
       position: relative; }
       .main-header .main-header-item .header-menu ul li > a {
         line-height: 102px;
-        font-size: 14px;
-        color: #817a78;
+        font-size: 16px;
+        color: black;
         text-transform: capitalize;
-        font-weight: 500;
+        font-family: poppins;
+        font-weight: 600;
         margin: 0 28px 0 30px;
         -webkit-transition: all 0.3s ease-out 0s;
         -moz-transition: all 0.3s ease-out 0s;
@@ -2132,11 +2133,11 @@ p {
 ===========================*/
 .gallery-area {
   background: #3f3836;
-  padding-top: 110px;
+  padding-top: 50px;
   position: relative;
   z-index: 11; }
   .gallery-area .gallery-title {
-    padding-bottom: 120px; }
+    padding-bottom: 50px; }
     .gallery-area .gallery-title .title {
       color: #fff;
       font-size: 44px; }
@@ -2355,6 +2356,7 @@ p {
       width: 100px;
       background: #fff;
       text-align: center;
+        border-radius: 50%; 
       line-height: 100px; }
   .we-knows-area .we-know-line {
     position: absolute;
