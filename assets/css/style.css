@@ -2132,8 +2132,9 @@ p {
     8.GALLERY css 
 ===========================*/
 .gallery-area {
+  padding-bottom: 80px;
   background: #3f3836;
-  padding-top: 50px;
+  padding-top: 40px;
   position: relative;
   z-index: 11; }
   .gallery-area .gallery-title {
